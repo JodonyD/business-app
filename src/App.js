@@ -247,12 +247,14 @@ const App = () => {
             {/* footer */}
             <footer className="bg-dark text-white text-center py-4" >
                 <div className="container">
-                    <p className="mb-0">&copy; 2025 JRD Web Creations. All rights reserved.</p>
+                    <p className="mb-1">&copy; 2025 JRD Web Creations. All rights reserved.</p>
+                    <p className="mb-0">
+                        Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> | 
+                        Phone: <a href="tel:+18763487520" className="text-white">876-348-7520</a>
+                    </p>
                 </div>
             </footer>
-
         </div>
-
     );
 }
 
