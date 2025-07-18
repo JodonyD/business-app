@@ -185,7 +185,7 @@ const App = () => {
             {/* pricing section */}
             <section className="py-5 bg-white" id="pricing">
                 <div className="container">
-                    <h2 className="text-center mb-4 text-warning fw-bold">Price List</h2>
+                    <h2 className="text-center mb-4 text-warning fw-bold">💲Price List</h2>
                     <p className="text-center text-muted mb-5">Choose the perfect plan for your business needs. All plans include our signature quality support</p>
 
                     <div className="row">
@@ -202,7 +202,7 @@ const App = () => {
 
                     {/* add-on list */}
                     <div className="mt-5">
-                        <h3 className="text-center mb-4">🚀 Add-Ons & Extras</h3>
+                        <h3 className="text-center text-warning mb-4">🚀 Add-Ons & Extras</h3>
                         <div className="row">
                             <div className="col-md-6 mb-3"><strong>Domain Setup & Linking:</strong> Help registering and connecting your domain name – <em>JMD $6,000</em></div>
                             <div className="col-md-6 mb-3"><strong>Deployment to Free Hosting:</strong> Netlify / GitHub Pages (free platforms) – <em>Included</em></div>
@@ -219,7 +219,7 @@ const App = () => {
             {/*contact section */}
             <section className="py-5 bg-light" id="contact">
                 <div className="container">
-                    <h2 className="text-center mb-4">Contact Us</h2>
+                    <h2 className="text-center mb-4">🔎Contact Us</h2>
                     <div className="row justify-content-center">
                         <div className="col-md-6">
                             <form onSubmit={handleSubmit}>
