@@ -128,7 +128,7 @@ const App = () => {
             {/* about section */}
             <section className="py-5 bg-white" id="about">
                 <div className="container text-center">
-                    <h2 className="mb-4 text-warning" >About JRD WebCreations</h2>
+                    <h2 className="text-warning fw-bold mb-4" >About JRD WebCreations</h2>
                     <p className="text-muted">
                         At JRD WebCreations, we are passionate about transforming your vision into stunning, functional, and user-friendly digital experiences.
                         <br></br>
@@ -136,8 +136,7 @@ const App = () => {
                         <br></br> 
                         Our core mission is to empower your brand with the professional online presence it truly deserves, helping you stand out in today's digital landscape.
                         <br></br>
-                        From intuitive navigation and beautiful aesthetics to seamless mobile responsiveness, we build websites designed to attract, engage, and convert your target audience. We believe a strong online foundation is key to growth, and we're committed to delivering high-quality, impactful web solutions that help you connect with more customers and achieve your business goals.
-
+                        We believe a strong online foundation is key to growth, and we're committed to delivering high-quality, impactful web solutions that help you connect with more customers and achieve your business goals. 
                     </p>
                 </div>
             </section>
@@ -145,7 +144,7 @@ const App = () => {
             {/* portfolio section */}
             <section className="py-5 bg-light" id="portfolio">
                 <div className="container">
-                    <h2 className="text-center mb-5">Portfolio</h2>
+                    <h2 className="text-center fw-bold mb-5">Portfolio</h2>
                     <div className="row">
                         {portfolioItems.map((item, index) => (
                             <div className="col-md-4 mb-4" key={index}>
