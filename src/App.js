@@ -127,8 +127,8 @@ const App = () => {
 
             {/* about section */}
             <section className="py-5 bg-white" id="about">
-                <div className="container text-center" >
-                    <h2 className="mb-4" >About JRD WebCreations</h2>
+                <div className="container text-center">
+                    <h2 className="mb-4 text-warning" >About JRD WebCreations</h2>
                     <p className="text-muted">
                         At JRD WebCreations, we are passionate about transforming your vision into stunning, functional, and user-friendly digital experiences.
                         <br></br>
