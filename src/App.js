@@ -203,6 +203,7 @@ const App = () => {
                     {/* add-on list */}
                     <div className="mt-5">
                         <h3 className="text-center text-warning mb-4">🚀 Add-Ons & Extras</h3>
+                        <h5 className="text-center text-muted mb-4">Conditions apply</h5>
                         <div className="row">
                             <div className="col-md-6 mb-3"><strong>Domain Setup & Linking:</strong> Help registering and connecting your domain name – <em>JMD $6,000</em></div>
                             <div className="col-md-6 mb-3"><strong>Deployment to Free Hosting:</strong> Netlify / GitHub Pages (free platforms) – <em>Included</em></div>
