@@ -29,7 +29,7 @@ const App = () => {
 
         try {
             // send form data to your backend server
-            const response = await fetch('https://business-app-1s45.onrender.com', { 
+            const response = await fetch('https://business-app-1s45.onrender.com/send-email', { 
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
