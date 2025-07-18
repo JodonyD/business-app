@@ -211,6 +211,7 @@ const App = () => {
                             <div className="col-md-6 mb-3"><strong>Google Map / WhatsApp Button:</strong> Embedded map or click-to-chat WhatsApp – <em>JMD $2,000</em></div>
                             <div className="col-md-6 mb-3"><strong>Basic SEO Optimization:</strong> Keywords, meta descriptions, Google search setup – <em>JMD $6,000</em></div>
                             <div className="col-md-6 mb-3"><strong>Monthly Maintenance:</strong> Website updates, edits, backups – <em>JMD $7,000/m</em></div>
+                            <div className="col-md-6 mb-3"><strong>More Info</strong> Please contact us for more detailed information <em>☑</em></div>
                         </div>
                     </div>
                 </div>
