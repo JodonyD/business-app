@@ -251,7 +251,7 @@ const App = () => {
                     <p className="mb-1">&copy; 2025 JRD Web Creations. All rights reserved.</p>
                     <p className="mb-0">
                         📧Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> | 
-                        📱WhatsApp: <a href="https://wa.me/18763487520" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a>
+                        📱WhatsApp: <a href="https://wa.me/18763487520?text=Hi%20JRD%20WebCreations%20I'm%20interested%20in%20your%20services" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a>
                     </p>
                 </div>
             </footer>
