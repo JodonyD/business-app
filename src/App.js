@@ -251,7 +251,7 @@ const App = () => {
                     <p className="mb-1">&copy; 2025 JRD Web Creations. All rights reserved.</p>
                     <p className="mb-0">
                         Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> | 
-                        Phone: <a href="tel:+18763487520" className="text-white">876-348-7520</a>
+                        Phone: <a href="https://wa.me/18763487520" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a>
                     </p>
                 </div>
             </footer>
