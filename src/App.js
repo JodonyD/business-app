@@ -63,7 +63,8 @@ const App = () => {
                 '/images/blaze3.png',
                 '/images/blaze4.png'
             ],
-            description: 'Beauty school website with course listing'
+            description: 'Beauty school website with course listing',
+            link:'🔗 https://blazebeauty.byethost13.com/contact.php'
         },
         {
             title: 'Oomas Jamaican Goodies',
@@ -75,7 +76,8 @@ const App = () => {
                 '/images/oomas4.png',
                 '/images/oomas5.png'
             ],
-            description: 'Local bakery website'
+            description: 'Local bakery website',
+            link:'🔗 https://jodonyd.github.io/oomas/'
         },
         {
             title: 'Personal Portfolio',
@@ -86,7 +88,8 @@ const App = () => {
                 '/images/portfolio3.png',
                 '/images/portfolio4.png',
             ],
-            description: 'My personal developer portfolio'
+            description: 'My personal developer portfolio',
+            link:'🔗 https://jodonyd.github.io/portfolio/'
         }
     ];
 
