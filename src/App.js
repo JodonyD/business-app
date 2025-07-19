@@ -64,7 +64,7 @@ const App = () => {
                 '/images/blaze4.png'
             ],
             description: 'Beauty school website with course listing',
-            link:'https://blazebeauty.byethost13.com/contact.php'
+            link:'https://blazebeauty.byethost13.com/index.php'
         },
         {
             title: 'Oomas Jamaican Goodies',
