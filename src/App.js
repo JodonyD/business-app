@@ -177,6 +177,7 @@ const App = () => {
                                         <h5 className="card-title">{item.title}</h5>
                                         <h6 className="text-muted mb-2">{item.category}</h6>
                                         <p className="card-text">{item.description}</p>
+                                        <p className="card-text">{item.link}</p>
                                     </div>
                                 </div>
                             </div>
