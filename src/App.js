@@ -177,7 +177,9 @@ const App = () => {
                                         <h5 className="card-title">{item.title}</h5>
                                         <h6 className="text-muted mb-2">{item.category}</h6>
                                         <p className="card-text">{item.description}</p>
-                                        <p className="card-text">{item.link}</p>
+                                         <p className="card-text mt-3"><a href={item.link.replace('🔗 ', '')} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-primary">
+                                            View Live Site <i className="bi bi-box-arrow-up-right"></i> {/* Optional: Add an external link icon */}
+                                        </a></p>
                                     </div>
                                 </div>
                             </div>
