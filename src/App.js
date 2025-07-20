@@ -123,9 +123,9 @@ const App = () => {
     const servicePricing = [
         { type: 'Basic Website (Static)', description: '1-3 pages (HTML, CSS, basic JavaScript/React). Great for personal information or bio sites.', price: 'JMD $25,000' },
         { type: 'Business Website (5-7 pages)', description: 'Full business website with Home, About, Services, Contact, etc. Mobile responsive.', price: 'JMD $38,000' },
-        { type: 'Custom Website (from scratch)', description: 'Designed from scratch with your brand in mind. Includes interactive features.', price: 'JMD $55,000+' },
-        { type: 'CMS Website (WordPress, Wix, etc.)', description: 'Editable website using a content management system like WordPress.', price: 'JMD $40,000+' },
-        { type: 'Portfolio/Booking Website', description: 'Ideal for photographers, creatives, salons, or consultants.', price: 'JMD $42,000+' },
+        { type: 'Custom Website (from scratch)', description: 'Designed from scratch with your brand in mind. Can include interactive features.', price: 'JMD $55,000+' },
+        { type: 'CMS Website (WordPress, Wix, etc.)', description: 'Editable website using a content management system like WordPress/Wix.', price: 'JMD $40,000+' },
+        { type: 'Portfolio/Booking Website', description: 'Ideal for creatives, salons, architects or consultants.', price: 'JMD $42,000+' },
         { type: 'Landing Page', description: 'One-page promotional site or product page.', price: 'JMD $15,000' },
     ];
 
@@ -279,7 +279,7 @@ const App = () => {
             {/* footer */}
             <footer className="bg-dark text-white text-center py-4" >
                 <div className="container">
-                    <p className="mb-1">&copy; 2025 JRD Web Creations. All rights reserved.</p>
+                    <p className="mb-1">&copy; 2025 JRD WebCreations. All rights reserved.</p>
                     <p className="mb-0">
                         📧Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> |
                         📱WhatsApp: <a href="https://wa.me/18763487520?text=Hi%20JRD%20WebCreations%20I'm%20interested%20in%20your%20services" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a>
