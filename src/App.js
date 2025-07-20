@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+// App.js
+import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './index.css';
 
 const App = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [showBackToTop, setShowBackToTop] = useState(false); // new state for back to top button
 
     const [formData, setFormData] = useState({
         name: '',
@@ -17,19 +19,19 @@ const App = () => {
     const handleChange = (e) => {
         setFormData({
             ...formData,
-            [e.target.name]: e.target.value 
+            [e.target.name]: e.target.value
         });
     };
 
     // handle form submission
     const handleSubmit = async (e) => {
-        e.preventDefault(); // prevent default form submission 
+        e.preventDefault(); // prevent default form submission
 
-        setFormStatus('Sending...'); // give feedback to the user 
+        setFormStatus('Sending...'); // give feedback to the user
 
         try {
             // send form data to your backend server
-            const response = await fetch('https://business-app-1s45.onrender.com/send-email', { 
+            const response = await fetch('https://business-app-1s45.onrender.com/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -42,17 +44,41 @@ const App = () => {
                 setFormStatus('Message sent successfully!');
                 setFormData({ name: '', email: '', message: '' }); // clear the form fields on success
             } else {
-                // if server responded with an error status 
+                // if server responded with an error status
                 setFormStatus(`Error: ${data.msg || 'Something went wrong.'}`);
             }
         } catch (error) {
-            // handle network errors 
+            // handle network errors
             console.error('Submission error:', error);
             setFormStatus('An error occurred. Please try again later.');
         }
     };
 
-    // portfolio items 
+    // back to Top button logic 
+    const handleScroll = () => {
+        if (window.scrollY > 300) { // shows button if scrolled down more than 300px
+            setShowBackToTop(true);
+        } else {
+            setShowBackToTop(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // smooth scroll animation
+        });
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll); // clean up the event listener
+        };
+    }, []);
+    // end of logic
+
+    // portfolio items
     const portfolioItems = [
         {
             title: 'Blaze Beauty School',
@@ -93,7 +119,7 @@ const App = () => {
         }
     ];
 
-    //servicing price 
+    //servicing price
     const servicePricing = [
         { type: 'Basic Website (Static)', description: '1-3 pages (HTML, CSS, basic JavaScript/React). Great for personal information or bio sites.', price: 'JMD $25,000' },
         { type: 'Business Website (5-7 pages)', description: 'Full business website with Home, About, Services, Contact, etc. Mobile responsive.', price: 'JMD $38,000' },
@@ -106,7 +132,7 @@ const App = () => {
     return (
         <div>
             {/* navigation bar */}
-            <nav className="navbar navbar-expand-lg navbar-light bg-warning px-4"  >
+            <nav className="navbar navbar-expand-lg navbar-light bg-warning px-4" >
                 <a className="navbar-brand fw-bold" href="#home">JRD WebCreations</a>
                 <button className="navbar-toggler" type="button" onClick={() => setIsMenuOpen(!isMenuOpen)}><span className="navbar-toggler-icon"></span></button>
                 <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show' : ''}`}>
@@ -136,10 +162,10 @@ const App = () => {
                         At JRD WebCreations, we are passionate about transforming your vision into stunning, functional, and user-friendly digital experiences.
                         <br></br>
                         We specialize in crafting custom websites tailored specifically for small businesses and ambitious entrepreneurs.
-                        <br></br> 
+                        <br></br>
                         Our core mission is to empower your brand with the professional online presence it truly deserves, helping you stand out in today's digital landscape.
                         <br></br>
-                        We believe a strong online foundation is key to growth, and we're committed to delivering high-quality, impactful web solutions that help you connect with more customers and achieve your business goals. 
+                        We believe a strong online foundation is key to growth, and we're committed to delivering high-quality, impactful web solutions that help you connect with more customers and achieve your business goals.
                     </p>
                 </div>
             </section>
@@ -255,11 +281,16 @@ const App = () => {
                 <div className="container">
                     <p className="mb-1">&copy; 2025 JRD Web Creations. All rights reserved.</p>
                     <p className="mb-0">
-                        📧Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> | 
+                        📧Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> |
                         📱WhatsApp: <a href="https://wa.me/18763487520?text=Hi%20JRD%20WebCreations%20I'm%20interested%20in%20your%20services" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a>
                     </p>
                 </div>
             </footer>
+
+            {/* back to Top button */}
+            {showBackToTop && (
+                <button className="back-to-top-btn btn btn-warning" onClick={scrollToTop} title="Back to Top"> ↑</button>
+            )}
         </div>
     );
 }
