@@ -281,8 +281,10 @@ const App = () => {
                 <div className="container">
                     <p className="mb-1">&copy; 2025 JRD WebCreations. All rights reserved.</p>
                     <p className="mb-0">
-                        📧Email: <a href="mailto:jodonydunn@gmail.con" className="text-white">jrdwebcreationa@gmail.com</a> |
-                        📱WhatsApp: <a href="https://wa.me/18763487520?text=Hi%20JRD%20WebCreations%20I'm%20interested%20in%20your%20services" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a>
+                        📧 Email: <a href="mailto:jrdwebcreations@gmail.com" className="text-white">jrdwebcreations@gmail.com</a> |
+                        📱 WhatsApp: <a href="https://wa.me/18763487520?text=Hi%20JRD%20WebCreations%20I'm%20interested%20in%20your%20services" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a> |
+                        🎵 TikTok: <a href="https://www.tiktok.com/@jrdwebcreations" className="text-white" target="_blank" rel="noreferrer">jrdwebcreations</a> |
+                        📸 Instagram: <a href="https://www.instagram.com/jrdwebcreations" className="text-white" target="_blank" rel="noreferrer">jrdwebcreations</a>
                     </p>
                 </div>
             </footer>
