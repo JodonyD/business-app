@@ -283,8 +283,8 @@ const App = () => {
                     <p className="mb-0">
                         📧 Email: <a href="mailto:jrdwebcreations@gmail.com" className="text-white">jrdwebcreations@gmail.com</a> |
                         📱 WhatsApp: <a href="https://wa.me/18763487520?text=Hi%20JRD%20WebCreations%20I'm%20interested%20in%20your%20services" className="text-white" target="_blank" rel="noreferrer">876-348-7520</a> |
-                        🎵 TikTok: <a href="https://www.tiktok.com/@jrdwebcreations" className="text-white" target="_blank" rel="noreferrer">jrdwebcreations</a> |
-                        📸 Instagram: <a href="https://www.instagram.com/jrdwebcreations" className="text-white" target="_blank" rel="noreferrer">jrdwebcreations</a>
+                        <i className="bi bi-tiktok"></i> TikTok: <a href="https://www.tiktok.com/@yourusername" className="text-white" target="_blank" rel="noreferrer">@yourusername</a> |
+                        <i className="bi bi-instagram"></i> Instagram: <a href="https://www.instagram.com/yourusername" className="text-white" target="_blank" rel="noreferrer">@yourusername</a>
                     </p>
                 </div>
             </footer>
