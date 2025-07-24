@@ -148,7 +148,7 @@ const App = () => {
             <header className="bg-light py-5 text-center" id="home">
                 <div className="container">
                     <h1 className="display-4 fw-bold">Crafting Digital Excellence</h1>
-                    <p className="lead">We trun your vision into beautyful user-friendly websites.</p>
+                    <p className="lead">We turn your vision into beautiful user-friendly websites.</p>
                     <a href="#portfolio" className="btn btn-default btn-outline-dark py-1">View Work </a>
                     <a href="#contact" className="btn btn-dark py-1">Contact Us</a>
                 </div>
