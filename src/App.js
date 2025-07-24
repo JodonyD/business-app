@@ -217,7 +217,7 @@ const App = () => {
             <section className="py-5 bg-white" id="pricing">
                 <div className="container">
                     <h2 className="text-center mb-4 text-warning fw-bold">💲Price List</h2>
-                    <p className="text-center text-muted mb-5">Choose the perfect plan for your business needs. All plans include our signature quality support</p>
+                    <p className="text-center text-muted mb-5">Choose the perfect plan for your business needs. All plans include our signature quality support!</p>
 
                     <div className="row">
                         {servicePricing.map((service, index) => (
