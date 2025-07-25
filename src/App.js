@@ -103,7 +103,7 @@ const App = () => {
                 '/images/oomas5.png'
             ],
             description: 'Local bakery website',
-            link:'https://jodonyd.github.io/oomas/'
+            link:'https://oomasjagoodies.byethost10.com'
         },
         {
             title: 'Personal Portfolio',
