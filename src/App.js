@@ -97,12 +97,12 @@ const App = () => {
             category: 'Web Development',
             images: [
                 '/images/jrd1.png',
-                '/images/oomas2.png',
-                '/images/oomas3.png',
-                '/images/oomas4.png',
-                '/images/oomas5.png'
+                '/images/jrd2.png',
+                '/images/jrd3.png',
+                '/images/jrd4.png',
+                '/images/jrd5.png'
             ],
-            description: 'Web developer website',
+            description: 'JRD WebCreations webiste is built using React',
             link:'https://jrdwebcreation.netlify.app/'
         },
         {
