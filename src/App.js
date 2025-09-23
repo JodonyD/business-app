@@ -102,8 +102,8 @@ const App = () => {
                 '/images/oomas4.png',
                 '/images/oomas5.png'
             ],
-            description: 'Local bakery website',
-            link:'https://oomasjagoodies.byethost10.com'
+            description: 'Web developer website',
+            link:'https://jrdwebcreation.netlify.app/'
         },
         {
             title: 'Personal Portfolio',
