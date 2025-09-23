@@ -93,10 +93,10 @@ const App = () => {
             link:'https://blazebeauty.byethost13.com/index.php'
         },
         {
-            title: 'Oomas Jamaican Goodies',
-            category: 'Bakery',
+            title: 'JRD WebCreations',
+            category: 'Web Development',
             images: [
-                '/images/oomas.png',
+                '/images/jrd1.png',
                 '/images/oomas2.png',
                 '/images/oomas3.png',
                 '/images/oomas4.png',
