@@ -112,7 +112,6 @@ const App = () => {
                 '/images/portfolio1.png',
                 '/images/portfolio2.png',
                 '/images/portfolio3.png',
-                '/images/portfolio4.png',
             ],
             description: 'My personal developer portfolio',
             link:'https://jodonyd.github.io/portfolio/'
