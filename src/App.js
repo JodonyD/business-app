@@ -114,7 +114,7 @@ const App = () => {
                 '/images/portfolio3.png',
             ],
             description: 'My personal developer portfolio',
-            link:'https://jodonyd.github.io/portfolio/'
+            link:'https://jrdportfolio.netlify.app/'
         }
     ];
 
