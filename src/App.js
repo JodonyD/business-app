@@ -120,12 +120,12 @@ const App = () => {
 
     //servicing price
     const servicePricing = [
-        { type: 'Basic Website (Static)', description: '1-3 pages (HTML, CSS, basic JavaScript/React). Great for personal information or bio sites.', price: 'JMD $25,000' },
-        { type: 'Business Website (5-7 pages)', description: 'Full business website with Home, About, Services, Contact, etc. Mobile responsive.', price: 'JMD $38,000' },
-        { type: 'Custom Website (from scratch)', description: 'Designed from scratch with your brand in mind. Can include interactive features.', price: 'JMD $55,000+' },
-        { type: 'CMS Website (WordPress, Wix, etc.)', description: 'Editable website using a content management system like WordPress/Wix.', price: 'JMD $40,000+' },
-        { type: 'Portfolio/Booking Website', description: 'Ideal for creatives, salons, architects or consultants.', price: 'JMD $42,000+' },
-        { type: 'Landing Page', description: 'One-page promotional site or product page.', price: 'JMD $15,000' },
+        { type: 'Basic Website (Static)', description: '1-3 pages (HTML, CSS, basic JavaScript/React). Great for personal information or bio sites.', price: '$230 USD' },
+        { type: 'Business Website (5-7 pages)', description: 'Full business website with Home, About, Services, Contact, etc. Mobile responsive.', price: '$320 USD' },
+        { type: 'Custom Website (from scratch)', description: 'Designed from scratch with your brand in mind. Can include interactive features.', price: 'Starting at $450 USD' },
+        { type: 'CMS Website (WordPress, Wix, etc.)', description: 'Editable website using a content management system like WordPress/Wix.', price: 'Starting at $350 USD' },
+        { type: 'Portfolio/Booking Website', description: 'Ideal for creatives, salons, architects or consultants.', price: '$370 USD' },
+        { type: 'Landing Page', description: 'One-page promotional site or product page.', price: '$160 USD' },
     ];
 
     return (
