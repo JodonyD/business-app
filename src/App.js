@@ -235,13 +235,13 @@ const App = () => {
                         <h3 className="text-center text-warning mb-4">🚀 Add-Ons & Extras</h3>
                         <p className="text-center text-muted mb-4">Conditions apply</p>
                         <div className="row">
-                            <div className="col-md-6 mb-3"><strong>Domain Setup & Linking:</strong> Help registering and connecting your domain name – <em>JMD $6,000</em></div>
+                            <div className="col-md-6 mb-3"><strong>Domain Setup & Linking:</strong> Help registering and connecting your domain name – <em>$40 USD</em></div>
                             <div className="col-md-6 mb-3"><strong>Deployment to Free Hosting:</strong> Netlify / GitHub Pages (free platforms) – <em>Included</em></div>
-                            <div className="col-md-6 mb-3"><strong>Deployment with Custom Domain:</strong> Deployment with custom domain (including DNS setup) – <em>JMD $6,000–$8,000</em></div>
-                            <div className="col-md-6 mb-3"><strong>Contact Form Integration:</strong> Form that sends info to your email – <em>JMD $3,500</em></div>
-                            <div className="col-md-6 mb-3"><strong>Google Map / WhatsApp Button:</strong> Embedded map or click-to-chat WhatsApp – <em>JMD $2,000</em></div>
-                            <div className="col-md-6 mb-3"><strong>Basic SEO Optimization:</strong> Keywords, meta descriptions, Google search setup – <em>JMD $6,000</em></div>
-                            <div className="col-md-6 mb-3"><strong>Monthly Maintenance:</strong> Website updates, edits, backups – <em>JMD $7,000/m</em></div>
+                            <div className="col-md-6 mb-3"><strong>Deployment with Custom Domain:</strong> Deployment with custom domain (including DNS setup) – <em>$45-$60 USD</em></div>
+                            <div className="col-md-6 mb-3"><strong>Contact Form Integration:</strong> Form that sends info to your email – <em>$30 USD</em></div>
+                            <div className="col-md-6 mb-3"><strong>Google Map / WhatsApp Button:</strong> Embedded map or click-to-chat WhatsApp – <em>$25 USD</em></div>
+                            <div className="col-md-6 mb-3"><strong>Basic SEO Optimization:</strong> Keywords, meta descriptions, Google search setup – <em>$45 USD</em></div>
+                            <div className="col-md-6 mb-3"><strong>Monthly Maintenance:</strong> Website updates, edits, backups – <em>$60 USD/month</em></div>
                             <div className="col-md-6 mb-3"><strong>For More Info:</strong> Please contact us for more detailed information! <em>☑</em></div>
                         </div>
                     </div>
