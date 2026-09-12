@@ -12,7 +12,29 @@ code {
     monospace;
 }
 
-/* index.css */
+.floating-nav {
+  background: rgba(255, 193, 7, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 1rem;
+  z-index: 1030;
+}
+
+.floating-nav .navbar-brand,
+.floating-nav .nav-link {
+  color: #111 !important;
+}
+
+.floating-nav .nav-link:hover {
+  opacity: 0.8;
+}
+
+.floating-nav .navbar-toggler {
+  border: none;
+}
 
 .back-to-top-btn {
     position: fixed;

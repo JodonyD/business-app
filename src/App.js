@@ -131,17 +131,19 @@ const App = () => {
     return (
         <div>
             {/* navigation bar */}
-            <nav className="navbar navbar-expand-lg navbar-light bg-warning px-4" >
-                <a className="navbar-brand fw-bold" href="#home">JRD WebCreations</a>
-                <button className="navbar-toggler" type="button" onClick={() => setIsMenuOpen(!isMenuOpen)}><span className="navbar-toggler-icon"></span></button>
-                <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show' : ''}`}>
-                    <ul className="nav navbar-nav navbar-right">
-                        <li className="nav-item ms-3"><a href="#about" className="text-dark text-decoration-none fw-bold">About</a></li>
-                        <li className="nav-item ms-3"><a href="#portfolio" className="text-dark text-decoration-none fw-bold">Portfolio</a></li>
-                        <li className="nav-item ms-3"><a href="#contact" className="text-dark text-decoration-none fw-bold">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <div className="container py-3">
+                <nav className="navbar navbar-expand-lg floating-nav px-4" >
+                    <a className="navbar-brand fw-bold" href="#home">JRD WebCreations</a>
+                    <button className="navbar-toggler" type="button" onClick={() => setIsMenuOpen(!isMenuOpen)}><span className="navbar-toggler-icon"></span></button>
+                    <div className={`collapse navbar-collapse justify-content-end ${isMenuOpen ? 'show' : ''}`}>
+                        <ul className="nav navbar-nav navbar-right">
+                            <li className="nav-item ms-3"><a href="#about" className="nav-link text-dark fw-bold">About</a></li>
+                            <li className="nav-item ms-3"><a href="#portfolio" className="nav-link text-dark fw-bold">Portfolio</a></li>
+                            <li className="nav-item ms-3"><a href="#contact" className="nav-link text-dark fw-bold">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
 
             {/* hero section */}
             <header className="bg-light py-5 text-center" id="home">
